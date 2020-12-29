@@ -1,4 +1,5 @@
 import axios, { AxiosRequestConfig } from "axios";
+import { Agent } from "https";
 import type { Endpoint, GetEndpointsResponse } from "../typings/api/endpoints";
 
 type GetEndpointsInput = {
@@ -24,6 +25,7 @@ export async function getEndpoints({
       params: {
         pageSize: 500,
       },
+      httpsAgent: new Agent({ keepAlive: true }),
     };
 
     const endpointItems: Endpoint[] = [];

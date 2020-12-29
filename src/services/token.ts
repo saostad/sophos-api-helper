@@ -1,4 +1,5 @@
 import axios, { AxiosRequestConfig } from "axios";
+import { Agent } from "https";
 import qs from "qs";
 
 type GetTokenInput = {
