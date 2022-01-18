@@ -1,6 +1,6 @@
 # Helper for work with Sophos API
 
-### Complete [API Documentation Here](https://saostad.github.io/sophos-api-helper/)
+### Complete [API Documentation Here](https://saostad.github.io/sophos-api-helper/modules.html)
 
 ### Quick Start
 
